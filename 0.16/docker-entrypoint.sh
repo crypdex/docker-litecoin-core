@@ -19,7 +19,7 @@ fi
 
 if [ "$1" = "litecoind" ] || [ "$1" = "litecoin-cli" ] || [ "$1" = "litecoin-tx" ]; then
   echo
-  exec gosu litecoin "$@"
+  exec su-exec litecoin "$@"
 fi
 
 echo
