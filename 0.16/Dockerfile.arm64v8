@@ -21,7 +21,7 @@ RUN git clone https://github.com/ncopa/su-exec.git \
   && cd su-exec && make && cp su-exec /usr/local/bin/ \
   && cd .. && rm -rf su-exec
 
-ENV LITECOIN_VERSION=0.16.0
+ENV LITECOIN_VERSION=0.16.3
 ENV LITECOIN_DATA=/home/litecoin/.litecoin
 ENV LITECOIN_ARCH=aarch64
 
