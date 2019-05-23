@@ -8,6 +8,8 @@
 #VERSION=
 SERVICE="litecoin-core"
 ARCH="arm64v8 x86_64"
+# This should alway track the latest version
+VERSION='0.17'
 
 # Build and push builds for these architectures
 for arch in ${ARCH}; do
